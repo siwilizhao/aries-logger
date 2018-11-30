@@ -20,14 +20,15 @@
   "keywords": [
     "siwi",
     "siwilizhao",
-    "aries-logger"
+    "aries-logger",
+    "aries-services"
   ],
-  "author": "",
+  "author": "siwi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/siwilizhao/siwi-npm-start/issues"
+    "url": "https://github.com/siwilizhao/aries-logger/issues"
   },
-  "homepage": "https://github.com/siwilizhao/siwi-npm-start#readme",
+  "homepage": "https://github.com/siwilizhao/aries-logger#readme",
   "devDependencies": {
     "@types/node": "^10.12.10",
     "chai": "^4.2.0",
