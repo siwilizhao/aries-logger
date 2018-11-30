@@ -1,0 +1,39 @@
+{
+  "name": "@siwi/aries-logger",
+  "version": "1.0.0",
+  "description": "udp logger for aries services",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test:server": "./node_modules/mocha/bin/mocha test/server.test.js",
+    "test:client": "./node_modules/mocha/bin/mocha test/client.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/aries-logger.git"
+  },
+  "keywords": [
+    "siwi",
+    "siwilizhao",
+    "aries-logger"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/siwi-npm-start/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/siwi-npm-start#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "ioredis": "^4.2.0"
+  }
+}
