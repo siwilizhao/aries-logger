@@ -1,6 +1,13 @@
 module.exports = {
-    title: 'siwi-npm-start',
-    description: 'npm for siwi',
+    configureWebpack: {
+        resolve: {
+          alias: {
+            '@images': './images'
+          }
+        }
+    },
+    title: 'aries-logger',
+    description: 'log for aries-services',
     head: [
         ['link', { rel: 'icon', href: 'http://www.semantic-ui.cn/images/logo.png' }]
     ],

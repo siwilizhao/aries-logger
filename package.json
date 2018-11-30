@@ -1,5 +1,5 @@
 {
-  "name": "@siwi/aries-logger",
+  "name": "aries-logger",
   "version": "1.0.0",
   "description": "udp logger for aries services",
   "main": "index.js",
@@ -35,5 +35,8 @@
   },
   "dependencies": {
     "ioredis": "^4.2.0"
+  },
+  "engines": {
+    "node": ">= 8.9"
   }
 }
