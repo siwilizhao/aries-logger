@@ -1,6 +1,6 @@
 {
   "name": "aries-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "udp logger for aries services",
   "main": "index.js",
   "directories": {
