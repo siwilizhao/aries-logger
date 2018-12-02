@@ -53,6 +53,7 @@ const options = {
     server_host: '127.0.0.1',
     redis_port: 6379,
     redis_host: '192.168.10.10',
+    redis_password: '',
     log_list_queue: 'ARIES_LOG_LIST'
 }
 describe('server', () => {
